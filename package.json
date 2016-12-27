@@ -1,0 +1,23 @@
+{
+  "name": "tiny-socket",
+  "version": "0.1.0",
+  "description": "A tiny WebSocket library",
+  "main": "socket.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delvedor/tiny-socket.git"
+  },
+  "keywords": [],
+  "author": "Tomas Della Vedova - @delvedor (http://delved.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delvedor/tiny-socket/issues"
+  },
+  "homepage": "https://github.com/delvedor/tiny-socket#readme",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
+}

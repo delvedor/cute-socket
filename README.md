@@ -1,7 +1,7 @@
-# tiny-socket
+# cute-socket
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)  ![stability](https://img.shields.io/badge/stability-experimental-orange.svg)
 
-A cute WebSocket library.
+A cute WebSocket library, intended to use with Browserify or Webpack.
 
 ## Install
 ```bash

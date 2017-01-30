@@ -1,5 +1,5 @@
 {
-  "name": "tiny-socket",
+  "name": "cute-socket",
   "version": "0.1.0",
   "description": "A tiny WebSocket library",
   "main": "socket.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/delvedor/tiny-socket.git"
+    "url": "git+https://github.com/delvedor/cute-socket.git"
   },
   "keywords": [],
   "author": "Tomas Della Vedova - @delvedor (http://delved.org)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/delvedor/tiny-socket/issues"
+    "url": "https://github.com/delvedor/cute-socket/issues"
   },
-  "homepage": "https://github.com/delvedor/tiny-socket#readme",
+  "homepage": "https://github.com/delvedor/cute-socket#readme",
   "devDependencies": {
     "standard": "^8.6.0"
   }

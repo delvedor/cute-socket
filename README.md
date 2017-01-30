@@ -1,11 +1,16 @@
 # tiny-socket
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)  ![stability](https://img.shields.io/badge/stability-experimental-orange.svg)
 
-A tiny WebSocket library.
+A cute WebSocket library.
+
+## Install
+```bash
+npm i cute-socket --save
+```
 
 ## Usage
 ```js
-const socket = require('./socket')('ws://localhost:3000')
+const socket = require('cute-socket')('ws://localhost:3000')
 
 socket.on('open', () => {
   socket.send('hello!')
@@ -65,8 +70,8 @@ The code follows the Standard code style.
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 ## License
-**[MIT](https://github.com/delvedor/tiny-socket/blob/master/LICENSE)**
+**[MIT](https://github.com/delvedor/cute-socket/blob/master/LICENSE)**
 
 *The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.*
 
-Copyright © 2016 Tomas Della Vedova
+Copyright © 2017 Tomas Della Vedova

@@ -1,7 +1,7 @@
 {
   "name": "cute-socket",
-  "version": "0.1.0",
-  "description": "A tiny WebSocket library",
+  "version": "0.1.1",
+  "description": "A cute WebSocket library",
   "main": "socket.js",
   "scripts": {
     "test": "standard"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/delvedor/cute-socket.git"
   },
-  "keywords": [],
+  "keywords": ["websocket", "wocket", "tiny", "light", "browser"],
   "author": "Tomas Della Vedova - @delvedor (http://delved.org)",
   "license": "MIT",
   "bugs": {

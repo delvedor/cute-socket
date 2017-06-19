@@ -13,10 +13,16 @@ function Socket (uri) {
     if (data) {
       if (this.listeners[data.event]) {
         this.listeners[data.event](data)
+      } else if (this.listeners['message']) {
+        this.listeners['message'](data)
+      } else {
+        console.error('No handler for event `message`')
       }
     } else {
       if (this.listeners['message']) {
         this.listeners['message'](event.data)
+      } else {
+        console.error('No handler for event `message`')
       }
     }
   }
